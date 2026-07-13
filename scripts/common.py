@@ -13,9 +13,9 @@ import httpx
 from version_check import check_and_notify
 
 # API配置
-API_BASE_URL = "http://localhost:8088"
+API_BASE_URL = "https://openapi.upkuajing.com"
 API_KEY_ENV = "UPKUAJING_API_KEY"
-UPKUAJING_DIR = Path.home() / 'upkuajing'
+UPKUAJING_DIR = Path.home() / '.upkuajing'
 UPKUAJING_ENV_FILE = UPKUAJING_DIR / '.env'
 UPKUAJING_LOGS_DIR = UPKUAJING_DIR / 'logs'
 
