@@ -1,7 +1,7 @@
 ---
 name: linkedin-company-employee
-description: Official skill for upkuajing (跨境魔方). Query employee list (员工列表) from LinkedIn data. Get employee information including person IDs and job titles by company ID, with cursor-based pagination. Requires a company ID (pid) — obtain it first via the linkedin-company-search skill.
-metadata: {"version":"1.0.1","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"👥","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
+description: "Pull LinkedIn employee lists and job titles by company ID. Analyze internal hierarchies for talent mapping and qualified sales‑lead development.\n\nTrigger:LinkedIn employee lookup, corporate hierarchy research, team‑structure analysis, B2B lead qualification, talent mapping via LinkedIn"
+metadata: {"version":"1.0.2","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"👥","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
 ---
 
 # LinkedIn Company Employee Query
@@ -151,4 +151,6 @@ Other UpKuaJing skills you might find useful:
 - linkedin-person-education — Query education history list from LinkedIn data
 - upkuajing-global-company-people-search — Unified company and people search across all sources
 - upkuajing-contact-info-validity-check — Check contact info validity
-- upkuajing-email-tool — Email verification and sending tool
+- phone-validity-check — Check phone number validity
+- email-validity-check — Check email address validity
+- domain-validity-check — Check domain validity and security- upkuajing-email-tool — Email verification and sending tool
